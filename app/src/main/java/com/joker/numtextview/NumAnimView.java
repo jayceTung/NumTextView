@@ -14,7 +14,7 @@ public class NumAnimView extends TextView
         implements IRiseNumber {
     private EndListener mEndListener = null;
     private float fromNumber;
-    // 动画持续时间
+
     private long duration = 1500;
 
     public interface EndListener {
@@ -34,11 +34,9 @@ public class NumAnimView extends TextView
     }
 
     public void showNumberWithAnimation(float number) {
-        //修改number属性，会调用setNumber方法
         ObjectAnimator objectAnimator = ObjectAnimator.ofFloat(this, "number", fromNumber, number);
         this.fromNumber = number;
         objectAnimator.setDuration(duration);
-        //加速器，从慢到快到再到慢
         objectAnimator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {

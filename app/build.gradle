@@ -23,8 +23,8 @@ android {
     }
 }
 
-def siteUrl = "https://github.com/xyczero/custom-swipelistview"
-def gitUrl = "https://github.com/xyczero/custom-swipelistview.git"
+def siteUrl = "https://github.com/yinte12/NumTextView"
+def gitUrl = "https://github.com/yinte12/NumTextView.git"
 
 //填写唯一包名
 group = "com.joker.numtextview"

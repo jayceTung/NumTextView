@@ -1,7 +1,7 @@
-#Add dependency
+#NumTextView
+**数字转换动画组件**
 
-## NumTextView
-数字转换动画组件
+## Add dependency
 
 ###Gradle
     compile 'com.joker.numtextview:app:1.0.0'

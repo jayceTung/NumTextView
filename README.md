@@ -1,6 +1,6 @@
-# H1 Add dependency
+#Add dependency
 
-# NumTextView
+## NumTextView
 数字转换动画组件
 
 ###Gradle

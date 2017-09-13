@@ -9,6 +9,10 @@ android {
     buildToolsVersion "23.0.2"
     resourcePrefix "customswipelistview_"  //这个没搞清什么作用，暂时随意填。
 
+    lintOptions {
+        abortOnError false
+    }
+
     defaultConfig {
         minSdkVersion 15
         targetSdkVersion 23

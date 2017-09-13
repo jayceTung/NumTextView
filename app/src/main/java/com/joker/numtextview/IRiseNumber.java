@@ -5,30 +5,15 @@ package com.joker.numtextview;
  */
 public interface IRiseNumber {
 
-    /**
-     *
-     * @param number
-     * @return
-     */
+
     public void setNumber(float number);
 
-    /**
-     *
-     * @param number
-     * @return
-     */
+
     public void setNumber(int number);
 
-    /**
-     *
-     * @param duration
-     * @return
-     */
+
     public void setDuration(long duration);
 
-    /**
-     *
-     * @param callback
-     */
+
     public void setOnEndListener(NumAnimView.EndListener callback);
 }
